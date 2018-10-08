@@ -1,7 +1,12 @@
 class Complex{
 	private double re;
 	private double im;
-
+	
+	public Complex(double real, double imag) {
+		re = real;
+		im = imag;
+	}
+	
 	public double modulus(){
 		return Math.hypot(re,im);
 	}
